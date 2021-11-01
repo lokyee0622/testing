@@ -86,7 +86,7 @@ h2{
       <td>{{$data->price}}</td>
       <td></i>{{$data->date}}</td>
       <td>{{$data->time}}</td>
-       <a href='delete/{{ $data->id }}'>Delete</a></td>        
+      <td><a href='delete/{{ $data->id }}'><i class="fa fa-trash" style="font-size:20px;color:red;"></i></a></td>      
     </tr>
 @endforeach
     
